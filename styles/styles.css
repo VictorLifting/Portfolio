@@ -1,0 +1,321 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,600;0,700;0,900;1,400;1,600&display=swap");
+* {
+  font-family: poppins;
+}
+
+.background {
+  z-index: -100;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-image: radial-gradient(circle, #5D5E63 5%, #1B1C21 95%);
+}
+
+.barra {
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+}
+
+.content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 95vh;
+  padding: 0% 5%;
+}
+
+.content__contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: blueviolet;
+  border-radius: 1.5rem 1.5rem 0rem 0rem;
+  padding: 1% 10%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.content__container {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.content__photo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.content__photo__pic {
+  width: 270px;
+}
+
+.content__text {
+  text-align: center;
+}
+
+.content__greeting {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 49px;
+  text-align: center;
+  color: #FFFFFF;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.content__greeting__blue {
+  color: #0BC9DB;
+  font-weight: 600;
+}
+
+.content__description {
+  margin-top: 4rem;
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 30%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contact__atom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contact__item {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.contact__item__2 {
+  margin-top: 3rem;
+}
+
+.contact__item__bg {
+  position: absolute;
+  border-radius: 50%;
+  background-color: #FFFFFF;
+  -webkit-filter: blur(7.74771px);
+          filter: blur(7.74771px);
+  width: 50px;
+  height: 50px;
+}
+
+.contact__item__bg2 {
+  position: absolute;
+  border-radius: 50%;
+  background-color: #FFFFFF;
+  -webkit-box-shadow: 0px 0px 0px 2px #0BC9DB;
+          box-shadow: 0px 0px 0px 2px #0BC9DB;
+  -webkit-filter: blur(7.74771px);
+          filter: blur(7.74771px);
+  width: 100px;
+  height: 100px;
+}
+
+.contact__item__img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-filter: blur(0px);
+          filter: blur(0px);
+}
+
+.contact__item__txt {
+  padding-top: 15px;
+  color: #FFFFFF;
+  font-size: 0.9rem;
+  line-height: 101.5%;
+}
+
+.contact__item__txt2 {
+  padding-top: 45px;
+  color: #4d4d4d;
+  font-size: 1rem;
+  line-height: 101.5%;
+}
+
+.text {
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 0rem;
+  color: #0BC9DB;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 65px;
+  text-align: center;
+  color: #0BC9DB;
+}
+
+.e-mail {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  margin-bottom: 0rem;
+  /* or 36px */
+  color: #FFFFFF;
+}
+
+.content__projects {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 5% 5%;
+}
+
+.projects {
+  margin-top: 3%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 80%;
+}
+
+.project {
+  margin: 0px 50px 50px 50px;
+  text-align: center;
+}
+
+.project__img {
+  width: 12em;
+  -webkit-filter: drop-shadow(0px 0px 8px rgba(0, 0, 0, 0.5));
+          filter: drop-shadow(0px 0px 8px rgba(0, 0, 0, 0.5));
+}
+
+.project__title {
+  margin-top: 1.5rem;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 101.5%;
+  color: #ffffff;
+}
+
+.bh {
+  margin-top: 2rem;
+  width: 70%;
+}
+
+.about {
+  margin-top: 6%;
+  margin-bottom: 6%;
+}
+
+.about__text {
+  width: 50%;
+  padding: 5%;
+}
+
+.about__title {
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 65px;
+  color: #0BC9DB;
+  -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+          filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.about__p {
+  font-size: 20px;
+  color: #4d4d4d;
+}
+
+.about__pblue {
+  font-size: 20px;
+  line-height: 24px;
+  color: #0BC9DB;
+  font-weight: 600;
+}
+
+.about__pwhite {
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.about__img {
+  width: 100%;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  border-radius: 24px;
+}
+
+.items_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 2% 30%;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.navbar {
+  padding: 2rem 2rem 0rem 4rem;
+  position: relative;
+}
+/*# sourceMappingURL=styles.css.map */
