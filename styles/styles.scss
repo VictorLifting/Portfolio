@@ -5,6 +5,27 @@
     font-family: poppins;
 }
 
+
+@keyframes slideInFromDown {
+    0% {
+      transform: translateY(30%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+/*
+  @keyframes Opacitys {
+    0% {
+     opacity:0;
+    }
+    100% {
+        opacity:1;;
+    }
+  }
+  
+*/
+
 .background{
  z-index: -100;
 position:fixed;
@@ -38,6 +59,7 @@ background-image: radial-gradient(circle, #5D5E63 5%, #1B1C21 95%);
         align-items: center;
         justify-content: center;
         text-align: center;
+        animation: 2s ease-out 0s 1 slideInFromDown;
 
     }
 
@@ -344,5 +366,7 @@ a:hover{
 .navbar{
     padding: 2rem 2rem 0rem 4rem;
     position: relative;
+    //animation: Opacitys 4.5s 1;
+    //animation: 4.5s ease-out 0s 1 slideInFromDown;
     
 }

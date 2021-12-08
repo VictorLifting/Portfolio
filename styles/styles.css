@@ -3,6 +3,39 @@
   font-family: poppins;
 }
 
+@-webkit-keyframes slideInFromDown {
+  0% {
+    -webkit-transform: translateY(30%);
+            transform: translateY(30%);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@keyframes slideInFromDown {
+  0% {
+    -webkit-transform: translateY(30%);
+            transform: translateY(30%);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+/*
+  @keyframes Opacitys {
+    0% {
+     opacity:0;
+    }
+    100% {
+        opacity:1;;
+    }
+  }
+  
+*/
 .background {
   z-index: -100;
   position: fixed;
@@ -51,6 +84,8 @@
       -ms-flex-pack: center;
           justify-content: center;
   text-align: center;
+  -webkit-animation: 2s ease-out 0s 1 slideInFromDown;
+          animation: 2s ease-out 0s 1 slideInFromDown;
 }
 
 .content__photo {
