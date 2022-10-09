@@ -49,7 +49,7 @@ background-image: radial-gradient(circle, #5D5E63 5%, #1B1C21 95%);
     &__contact{
         display: flex;
         background-color: blueviolet;
-        border-radius: 1.5rem 1.5rem 0rem 0rem;
+        border-radius: 1rem 1rem 0rem 0rem;
         padding: 1% 10%;
         justify-content: space-between;
     }
@@ -61,6 +61,19 @@ background-image: radial-gradient(circle, #5D5E63 5%, #1B1C21 95%);
         text-align: center;
         animation: 2s ease-out 0s 1 slideInFromDown;
 
+
+    }
+    &__about{
+        padding: 2rem;
+    }
+
+    &__container2{
+        display: flex;
+        text-align: left;
+        background-color: rgba(255, 255, 255, 0.2);
+        backdrop-filter: blur(5px);
+        border-radius: 10px;
+        padding: 2rem;
     }
 
 
@@ -74,7 +87,6 @@ background-image: radial-gradient(circle, #5D5E63 5%, #1B1C21 95%);
     }
 
     }
-
 
     &__text{
         text-align: center;
@@ -176,7 +188,7 @@ background-image: radial-gradient(circle, #5D5E63 5%, #1B1C21 95%);
 
         &__txt2{
             padding-top: 45px;
-            color: #4d4d4d;
+            color: #ffffff;
             font-size: 1rem;
             line-height: 101.5%;
     
@@ -196,7 +208,7 @@ background-image: radial-gradient(circle, #5D5E63 5%, #1B1C21 95%);
 font-weight: bold;
 font-size: 30px;
 margin-bottom: 0rem;
-color: #0BC9DB;
+color: #ffffff;
 
 }
 
@@ -206,7 +218,7 @@ font-weight: bold;
 font-size: 44px;
 line-height: 65px;
 text-align: center;
-color: #0BC9DB;
+color: #ffffff;
 //text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
 }
@@ -302,9 +314,9 @@ color: #FFFFFF;
 
     &__p{
 
-    font-size: 20px;
+    font-size: 16px;
    // line-height: 24px;
-    color: #4d4d4d;
+    color: #ffffff;
    // text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
     }
@@ -314,7 +326,7 @@ color: #FFFFFF;
         
     font-size: 20px;
     line-height: 24px;
-    color: #0BC9DB;
+    color: #ffffff;
     //text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
         font-weight: 600;
 
@@ -333,11 +345,11 @@ color: #FFFFFF;
 
     &__img{
 
-        width: 100%;
+        width: 50%;
         //padding: 5%;
        // background: rgba(0, 0, 0, 0.3);
-        backdrop-filter: blur(10px);
-        border-radius: 24px;
+       // backdrop-filter: blur(10px);
+        //border-radius: 24px;
 
     }
 }
@@ -350,7 +362,7 @@ color: #FFFFFF;
     justify-content: space-between;
     //align-items: center;
     //background-color: aqua;
-    padding: 2% 30%;
+    padding: 2% 3%;
 
 
 }

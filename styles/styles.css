@@ -69,7 +69,7 @@
   display: -ms-flexbox;
   display: flex;
   background-color: blueviolet;
-  border-radius: 1.5rem 1.5rem 0rem 0rem;
+  border-radius: 1rem 1rem 0rem 0rem;
   padding: 1% 10%;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
@@ -86,6 +86,22 @@
   text-align: center;
   -webkit-animation: 2s ease-out 0s 1 slideInFromDown;
           animation: 2s ease-out 0s 1 slideInFromDown;
+}
+
+.content__about {
+  padding: 2rem;
+}
+
+.content__container2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: left;
+  background-color: rgba(255, 255, 255, 0.2);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  border-radius: 10px;
+  padding: 2rem;
 }
 
 .content__photo {
@@ -207,7 +223,7 @@
 
 .contact__item__txt2 {
   padding-top: 45px;
-  color: #4d4d4d;
+  color: #ffffff;
   font-size: 1rem;
   line-height: 101.5%;
 }
@@ -216,7 +232,7 @@
   font-weight: bold;
   font-size: 30px;
   margin-bottom: 0rem;
-  color: #0BC9DB;
+  color: #ffffff;
 }
 
 .title {
@@ -224,7 +240,7 @@
   font-size: 44px;
   line-height: 65px;
   text-align: center;
-  color: #0BC9DB;
+  color: #ffffff;
 }
 
 .e-mail {
@@ -316,14 +332,14 @@
 }
 
 .about__p {
-  font-size: 20px;
-  color: #4d4d4d;
+  font-size: 16px;
+  color: #ffffff;
 }
 
 .about__pblue {
   font-size: 20px;
   line-height: 24px;
-  color: #0BC9DB;
+  color: #ffffff;
   font-weight: 600;
 }
 
@@ -333,10 +349,7 @@
 }
 
 .about__img {
-  width: 100%;
-  -webkit-backdrop-filter: blur(10px);
-          backdrop-filter: blur(10px);
-  border-radius: 24px;
+  width: 50%;
 }
 
 .items_container {
@@ -348,7 +361,7 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 2% 30%;
+  padding: 2% 3%;
 }
 
 a:hover {
